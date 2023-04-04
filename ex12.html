@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js"></script>
+    <title>Javascript</title>
+</head>
+<body>
+    <div id="container">
+        <ul id="navegacao">
+            <li id="home"><a  href="index.html">Home</a></li>
+            <li><a href="ex11.html">Voltar</a></li>
+            <li><a href="ex13.html">Avançar</a></li>
+        </ul>
+        <hr>
+        <h1>Questão 12</h1>
+            <div class="questions">
+                <div class="question1">
+                    <h2> (1) Faça um programa onde colocamos dois numeros ímpares e o programa imprima o resto da divisão. Ex: 7/3 deve imprimir: 1, 25/5 deve imprimir: 0. (2) Faça um programa onde entramos com dois números, e ele imprime se o primeiro número é maior que o segundo. Ex: 2 e 5. Imprime: false.(3) Faça um programa onde entramos com dois números, e ele imprime se o primeiro número é menor que o segundo. Ex: 2 e 5. Imprime: true.</h2><br><br>
+
+                    
+                    <div id="imp1">
+                        <label for=""><h3>(1) Insira dois números ímpares:</h3></label><br>
+                            <input type="number" name="numero1" id="numImp1" placeholder="1º número"> /
+                        <input type="number" name="numero1" id="numImp2" placeholder="2º número">
+                        = <input type="text" id="divImp" placeholder="Resultado">
+                        <br>   
+                        <button id="resultadoImp" type="submit" onclick="divImpNums()">Calcular</button>
+                        <button id="limparImp" onclick="limparDivImpNums()">Limpar</button>
+                        <br><br>
+                    </div>
+                    <div id="imp2">
+                        <label for=""><h3>(2) Número 1 maior que número 2?</h3></label><br>
+                            <input type="number" name="numero1" id="numMai1" placeholder="1º número"> +
+                        <input type="number" name="numero1" id="numMai2" placeholder="2º número">
+                        = <input type="text" id="maiRes" placeholder="Resultado">
+                        <br>   
+                        <button id="resultadoImp" type="submit" onclick="numeroMaior()">Calcular</button>
+                        <button id="limparImp" onclick="limparNumeros()">Limpar</button>
+                        <br><br>
+                    </div>
+                    <div id="imp3">
+                        <label for=""><h3>(3) Número 1 menor que número 2</h3></label><br>
+                            <input type="number" name="numero1" id="numMen1" placeholder="1º número"> +
+                        <input type="number" name="numero1" id="numMen2" placeholder="2º número">
+                        = <input type="text" id="menRes" placeholder="Resultado">
+                        <br>   
+                        <button id="resultadoImp" type="submit" onclick="numeroMenor()">Calcular</button>
+                        <button id="limparImp" onclick="limparNumeros2()">Limpar</button>
+                        <br><br>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+    </div>
+
+    
+
+    
+    
+</body>
+</html>

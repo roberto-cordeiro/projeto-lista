@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js"></script>
+    <title>Javascript</title>
+</head>
+<body>
+    <div id="container">
+        <ul id="navegacao">
+            <li id="home"><a  href="index.html">Home</a></li>
+            <li><a href="ex09.html">Voltar</h1></a></li>
+            <li><a href="ex11.html">Avançar</a></li>
+        </ul>
+        <hr>
+        <h1>Questão 10</h1>
+            <div class="questions">
+                <div class="question1">
+                    <h2> (1) Faça um programa que imprima na tela se um nome é igual ao outro nome digitado. Porém, os dois nomes devem estar em dois objetos separados. Ex: const object1 = {name:"João"}, object1 = {name:"Maria"}. João e João, imprime true. João e Maria, imprime false.(2) Faça um programa que imprima na tela se um nome é igual ao outro nome digitado. Porém, os dois nomes devem estar em um objeto. Ex: const object1 = {firstName:"João", seccondName:"Maria"}. João e João, imprime true. João e Maria, imprime false.</h2><br><br>
+                    <div id="caixa1">
+                                <label for=""><h3>(1)Exercício: - teste objetos separados (true or false).</h3></label><br>
+
+                            
+                            <input type="text" id="nomes3Arr" placeholder="Resultado" disabled>
+                            <br>   
+                            <button id="resultado" type="submit" onclick="cadNomesObjtDfr()">Executar</button>
+                            
+                            <button id="limpar" onclick="limparObjtDfr()">Limpar</button>
+                    </div>
+                    <div id="caixa2">
+
+                                <label for=""><h3>(2)Exercício: - teste mesmo objeto (true or false).</h3></label><br>
+
+                            
+                            <input type="text" id="nomes6Arr" placeholder="Resultado" disabled>
+                            <br>   
+                            <button id="resultado" type="submit" onclick="cadNomesMesmoObjt()">Executar</button>
+                            
+                            <button id="limpar" onclick="limparMesmObjt()">Limpar</button>
+
+                    </div>
+                    
+                    
+                </div>
+            </div>
+    </div>
+
+    
+</body>
+</html>

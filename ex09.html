@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/ex09.js"></script>
+    <title>Javascript</title>
+</head>
+<body>
+    <div id="container">
+        <ul id="navegacao">
+            <li id="home"><a  href="index.html">Home</a></li>
+            <li><a href="ex08.html">Voltar</a></li>
+            <li><a href="ex10.html">Avançar</a></li>
+        </ul>
+        <hr>
+        <h1>Questão 9</h1>
+            <div class="questions">
+                <div class="question1">
+                    <h2>- Criei 5 Objetos, neles devem conter os dados de 5 pessoas que você conhece. Mínimo 5 dados por pessoa.</h2><br>
+
+                    <label for=""><h3>Insira 5 nomes, depois, 5 itens por pessoa:</h3></label>
+
+                  <!--TABELA A RECEBER DADOS DA FUNÇÃO-->
+
+                    <table id="tabela" border="2px">
+                        <thead>
+                          <tr>
+                            <th>Nome</th>
+                            <th>Idade</th>
+                            <th>Peso</th>
+                            <th>Altura</th>
+                            <th>Estado Civil</th>
+                            <th>Nacionalidade</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                      </table>
+                      
+                        <br>   
+
+                        <button id="resultado" type="submit" onclick="adicionarNomes(nomes)">Executar</button><!--FUNÇÂO ADICIONA NOMES-->
+                        <button id="limpar" onclick="preencherTabela(nomes)">Imprimir Tabela</button><!--FUNÇÂO IMPRIME NOMES-->
+                        <button id="limpar" onclick="limparTabela(nomes)">Limpar Tabela</button>
+
+
+                
+                </div>
+            </div>
+
+
+
+             
