@@ -8,5 +8,5 @@
 </div><hr>
 <h1>Desktop only</h1>
 <div style="display=inline-block">
-<a href="https://jovial-sprite-32caf5.netlify.app/" target="blank"><img src="https://github.com/roberto-cordeiro/projeto-lista/blob/master/img/project-model-layout.png?raw=true" width="500px"></a><a href="https://jovial-sprite-32caf5.netlify.app/ex09.html" target="blank"><img src="https://github.com/roberto-cordeiro/projeto-lista/blob/master/img/project-model-ex-9.png?raw=true" width="500px"></a>
+<a href="https://jovial-sprite-32caf5.netlify.app/" target="blank"><img src="https://github.com/roberto-cordeiro/projeto-lista/blob/master/img/project-model-layout.png?raw=true" width="480px"></a><a href="https://jovial-sprite-32caf5.netlify.app/ex09.html" target="blank"><img src="https://github.com/roberto-cordeiro/projeto-lista/blob/master/img/project-model-ex-9.png?raw=true" width="480px"></a>
 </div>
